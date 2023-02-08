@@ -1,7 +1,7 @@
 // 表格相册
 $("table")
   .has("img")
-  .addClass("nexmoe-album");
+  .addClass("chireiden-album");
 
 // 搜索
 function search() {

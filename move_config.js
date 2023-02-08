@@ -4,13 +4,13 @@ if (fs.existsSync('../hexo/package.json')){
   const version = JSON.parse(fs.readFileSync('../hexo/package.json')).version
   if (version.split('.')[0] === '5') {
     const oldConfigPath = '../../_config.old.yml'
-    const configPath = '../../_config.nexmoe.yml'
+    const configPath = '../../_config.chireiden.yml'
     if (fs.existsSync(configPath)) {
       fs.writeFileSync( '../../_config.new.yml', fs.readFileSync('./source/_config.yml'))
     } else if(!fs.existsSync(oldConfigPath)) {
       fs.writeFileSync(configPath, fs.readFileSync('./source/_config.yml'))
       logger.info('Successful installation!')
-      logger.info('Please modify the file `_config.nexmoe.yml` in the root directory')
+      logger.info('Please modify the file `_config.chireiden.yml` in the root directory')
     }
     fs.unlinkSync('./source/_config.yml')
   }

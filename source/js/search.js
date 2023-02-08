@@ -61,12 +61,12 @@ let key = decodeURI(location.search.split('?q=')[1]);
 if (key !== undefined && key !== 'undefined') {
     document.getElementsByClassName('search-input')[0].value = key;
     loadData(format(key));
-    document.getElementById('nexmoe-search-space').style.display = 'flex';
+    document.getElementById('chireiden-search-space').style.display = 'flex';
 }
 
 // 事件
 function sclose() {
-    document.getElementById('nexmoe-search-space').style.display = 'none';
+    document.getElementById('chireiden-search-space').style.display = 'none';
 }
 
 function sinput() {

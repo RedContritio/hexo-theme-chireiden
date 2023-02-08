@@ -46,34 +46,34 @@
 
 <body class="mdui-drawer-body-left">
     <%- partial('_partial/_analytics/gtm-body') %>
-    <div id="nexmoe-background">
-        <div class="nexmoe-bg" style="background-image: url(<%= theme.background.path %>)"></div>
+    <div id="chireiden-background">
+        <div class="chireiden-bg" style="background-image: url(<%= theme.background.path %>)"></div>
         <div class="mdui-appbar mdui-shadow-0">
             <div class="mdui-toolbar">
-                <a mdui-drawer="{target: '#drawer', swipe: true}" title="menu" class="mdui-btn mdui-btn-icon mdui-ripple"><i class="mdui-icon nexmoefont icon-menu"></i></a>
+                <a mdui-drawer="{target: '#drawer', swipe: true}" title="menu" class="mdui-btn mdui-btn-icon mdui-ripple"><i class="mdui-icon chireidenfont icon-menu"></i></a>
                 <div class="mdui-toolbar-spacer"></div>
                 <!--<a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></a>-->
                 <a href="<%- url_for() %>" title="<%= config.author || config.title %>" class="mdui-btn mdui-btn-icon"><img src="<%= theme.avatar %>" alt="<%= config.author || config.title %>"></a>
             </div>
         </div>
     </div>
-    <div id="nexmoe-header">
+    <div id="chireiden-header">
         <%- partial('_partial/header') %>
     </div>
-    <div id="nexmoe-content">
-        <div class="nexmoe-primary">
+    <div id="chireiden-content">
+        <div class="chireiden-primary">
             <%- body %>
-            <div class="nexmoe-post-right">
-              <div class="nexmoe-fixed">
-                  <div class="nexmoe-tool"> 
+            <div class="chireiden-post-right">
+              <div class="chireiden-fixed">
+                  <div class="chireiden-tool"> 
                     
                       <% if (page.toc || theme.function.globalToc){ %>
                         
                           <% const toc_obj = toc(page.content, {list_number: true}); %>
                           <% if (toc_obj.length > 0) { %>
                               <button class="mdui-fab catalog" style="overflow:unset;">
-                                  <i class="nexmoefont icon-i-catalog"></i>
-                                  <div class="nexmoe-toc">
+                                  <i class="chireidenfont icon-i-catalog"></i>
+                                  <div class="chireiden-toc">
                                       <%- toc_obj %>
                                   </div>
                               </button>
@@ -81,7 +81,7 @@
                           
                       <%} %>
                     
-                      <a href="#nexmoe-content" class="toc-link" aria-label="回到顶部" title="top"><button class="mdui-fab mdui-ripple"><i class="nexmoefont icon-caret-top"></i></button></a>
+                      <a href="#chireiden-content" class="toc-link" aria-label="回到顶部" title="top"><button class="mdui-fab mdui-ripple"><i class="chireidenfont icon-caret-top"></i></button></a>
                   </div>
               </div>
             </div>

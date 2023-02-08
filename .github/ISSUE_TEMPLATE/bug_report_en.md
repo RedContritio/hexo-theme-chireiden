@@ -17,5 +17,5 @@ Otherwise the issue will be closed immediately.Please do not repeat the issue.
 ### Additional info (logs errors etc)
 
 <!--
-Please ensure you have deployed the [master branch](https://github.com/nexmoe/hexo-theme-nexmoe/tree/master) 
+Please ensure you have deployed the [master branch](https://github.com/chireiden/hexo-theme-chireiden/tree/master) 
 -->

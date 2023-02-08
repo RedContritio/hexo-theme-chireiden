@@ -52,11 +52,12 @@ body {
     box-shadow: 0 1em 3em 0.5em rgba(0, 0, 0, 0.25);
 }
 
-#nexmoe-background {
-    .nexmoe-bg {
-        opacity: 0.2;
+#chireiden-background {
+    .chireiden-bg {
+        // opacity: 0.2;
+        opacity: 0.6;
         background-size: cover;
-        filter: blur(30px);
+        // filter: blur(30px);
         height: 100vh;
         width: 100%;
         position: fixed;
@@ -76,14 +77,14 @@ body {
 }
 
 @media screen and (max-width: 1023px) {
-    #nexmoe-background {
+    #chireiden-background {
         .mdui-appbar {
             display: block !important;
         }
     }
 }
 
-#nexmoe-header {
+#chireiden-header {
     margin-left: -260px;
 
     .mdui-drawer {
@@ -95,7 +96,7 @@ body {
         display: none;
     }
 
-    .nexmoe-avatar, .nexmoe-avatar img {
+    .chireiden-avatar, .chireiden-avatar img {
         width: 100%;
         font-size: 0 0;
         border-radius: 80px;
@@ -107,7 +108,7 @@ body {
         transition: transform 1.5s ease-out;
     }
 
-    .nexmoe-avatar {
+    .chireiden-avatar {
         margin: 45px;
         z-index: 4;
         position: relative;
@@ -124,7 +125,7 @@ body {
         }
     }
 
-    .nexmoe-count {
+    .chireiden-count {
         padding: 0 30px;
         margin-bottom: 30px;
         display: -webkit-box;
@@ -145,7 +146,7 @@ body {
         }
     }
 
-    .nexmoe-search {
+    .chireiden-search {
         input {
             border: none !important;
             background-color: transparent;
@@ -159,7 +160,7 @@ body {
         display: none !important;
     }
 
-    .nexmoe-social {
+    .chireiden-social {
         padding: 12px;
         font-size: 0;
 
@@ -175,10 +176,10 @@ body {
         }
     }
 
-    .nexmoe-list {
+    .chireiden-list {
         padding: 8px 20px;
 
-        .nexmoe-list-item {
+        .chireiden-list-item {
             padding: 0 36px;
             color: #9ca2a8;
             border-radius: var(--radius);
@@ -187,27 +188,27 @@ body {
             transition: none !important;
         }
 
-        .nexmoe-list-item.true, .nexmoe-list-item.true i {
+        .chireiden-list-item.true, .chireiden-list-item.true i {
             color: #fff;
         }
 
-        .nexmoe-list-item.true {
+        .chireiden-list-item.true {
             opacity: 0.9;
             background: var(--color-primary);
             box-shadow: 0 2px 12px var(--color-primary);
         }
 
-        .nexmoe-list-item i {
+        .chireiden-list-item i {
             font-size: 22px;
             color: #9ca2a8;
         }
 
-        .nexmoe-list-item .mdui-list-item-content {
+        .chireiden-list-item .mdui-list-item-content {
             margin-left: 0px;
         }
     }
 
-    .nexmoe-widget-wrap {
+    .chireiden-widget-wrap {
         box-shadow: 0 0 1rem rgba(161, 177, 204, 0.4);
         background-color: #fff;
         margin: 20px;
@@ -215,7 +216,7 @@ body {
         overflow: hidden;
         white-space: normal;
 
-        .nexmoe-widget-title {
+        .chireiden-widget-title {
             font-size: 1em;
             font-weight: 400;
             padding: 24px 18px 12px;
@@ -223,7 +224,7 @@ body {
             color: var(--color-primary);
         }
 
-        .nexmoe-widget {
+        .chireiden-widget {
             ul {
                 list-style-type: none;
                 padding: 0;
@@ -281,11 +282,11 @@ body {
         }
     }
 
-    .nexmoe-widget-wrap:first-child {
+    .chireiden-widget-wrap:first-child {
         margin-top: 0;
     }
 
-    .nexmoe-copyright {
+    .chireiden-copyright {
         padding: 0 30px;
         text-align: center;
         color: #777;
@@ -300,7 +301,7 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
-    #nexmoe-header {
+    #chireiden-header {
         margin-left: 0;
 
         .mdui-drawer {
@@ -309,10 +310,10 @@ body {
     }
 }
 
-#nexmoe-content {
+#chireiden-content {
     position: relative;
 
-    .nexmoe-primary {
+    .chireiden-primary {
         box-shadow: 0 0 1rem rgba(161, 177, 204, 0.4);
         background-color: #fff;
         float: left;
@@ -321,7 +322,7 @@ body {
         position: absolute;
         min-height: 100vh;
 
-        .nexmoe-page-nav {
+        .chireiden-page-nav {
             list-style: none;
             text-align: center;
             display: inline-block;
@@ -342,7 +343,7 @@ body {
             }
         }
 
-        .nexmoe-page-nav > * {
+        .chireiden-page-nav > * {
             color: #999;
             border-radius: var(--radius);
             width: 35px;
@@ -353,10 +354,10 @@ body {
         }
     }
 
-    .nexmoe-posts {
+    .chireiden-posts {
         position: relative;
 
-        .nexmoe-post {
+        .chireiden-post {
             width: 100%;
             margin-bottom: 40px;
 
@@ -369,17 +370,17 @@ body {
             }
         }
 
-        .nexmoe-post-meta {
+        .chireiden-post-meta {
             margin: 10px 0 !important;
         }
 
-        .nexmoe-post:last-child {
+        .chireiden-post:last-child {
             margin-bottom: $gutter;
         }
     }
 
-    .nexmoe-post {
-        .nexmoe-post-cover {
+    .chireiden-post {
+        .chireiden-post-cover {
             width: 100%;
             padding-bottom: 56.25%;
             position: relative;
@@ -436,7 +437,7 @@ body {
             }
         }
 
-        .nexmoe-post-meta {
+        .chireiden-post-meta {
             margin: $gutter 0px;
             font-size: 0;
 
@@ -449,7 +450,7 @@ body {
                 margin-right: 10px;
                 text-decoration: none;
 
-                .nexmoefont {
+                .chireidenfont {
                     font-size: 14px;
                 }
             }
@@ -459,7 +460,7 @@ body {
             }
         }
 
-        .nexmoe-post-copyright {
+        .chireiden-post-copyright {
             margin: 0 -25px;
             margin-bottom: 25px;
             padding: 25px;
@@ -474,7 +475,7 @@ body {
             }
         }
 
-        .nexmoe-post-copyright:after {
+        .chireiden-post-copyright:after {
             position: absolute;
             background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 496 512'%3E%3Cpath fill='%234a4a4a' d='M245.8 214.9l-33.2 17.3c-9.4-19.6-25.2-20-27.4-20-22.2 0-33.3 14.6-33.3 43.9 0 23.5 9.2 43.8 33.3 43.8 14.4 0 24.6-7 30.5-21.3l30.6 15.5a73.2 73.2 0 01-65.1 39c-22.6 0-74-10.3-74-77 0-58.7 43-77 72.6-77 30.8-.1 52.7 11.9 66 35.8zm143 0l-32.7 17.3c-9.5-19.8-25.7-20-27.9-20-22.1 0-33.2 14.6-33.2 43.9 0 23.5 9.2 43.8 33.2 43.8 14.5 0 24.7-7 30.5-21.3l31 15.5c-2 3.8-21.3 39-65 39-22.7 0-74-9.9-74-77 0-58.7 43-77 72.6-77C354 179 376 191 389 214.8zM247.7 8C104.7 8 0 123 0 256c0 138.4 113.6 248 247.6 248C377.5 504 496 403 496 256 496 118 389.4 8 247.6 8zm.8 450.8c-112.5 0-203.7-93-203.7-202.8 0-105.5 85.5-203.3 203.8-203.3A201.7 201.7 0 01451.3 256c0 121.7-99.7 202.9-202.9 202.9z'/%3E%3C/svg%3E");
             content: ' ';
@@ -486,7 +487,7 @@ body {
         }
     }
 
-    .nexmoe-post-footer {
+    .chireiden-post-footer {
         background-color: #f5f6f5;
         padding: $gutter;
         margin: -($gutter);
@@ -494,21 +495,21 @@ body {
     }
 }
 
-#nexmoe-content:after {
+#chireiden-content:after {
     clear: both;
     display: table;
     content: ' ';
 }
 
 @media screen and (max-width: 1024px) {
-    #nexmoe-content {
-        .nexmoe-primary {
+    #chireiden-content {
+        .chireiden-primary {
             width: 100%;
             position: relative;
             min-height: 100vh;
         }
 
-        .nexmoe-secondary {
+        .chireiden-secondary {
             display: none;
         }
     }
@@ -519,29 +520,29 @@ body {
         padding-left: 0px;
     }
 
-    #nexmoe-header .mdui-drawer-close {
+    #chireiden-header .mdui-drawer-close {
         display: none;
 
-        .nexmoe-avatar {
+        .chireiden-avatar {
             padding: 16px;
             width: 80px;
             margin-left: 160px;
             margin-top: 8px;
         }
 
-        .nexmoe-count {
+        .chireiden-count {
             padding: 16px;
             width: 80px;
             margin-left: 160px;
             display: block;
         }
 
-        .nexmoe-count div {
+        .chireiden-count div {
             display: block;
             margin-bottom: 10px;
         }
 
-        .nexmoe-count div:last-child {
+        .chireiden-count div:last-child {
             margin-bottom: 0;
         }
 
@@ -549,7 +550,7 @@ body {
             margin-left: 160px;
         }
 
-        .nexmoe-list-item {
+        .chireiden-list-item {
             padding: 0 17px;
             color: #9ca2a8;
         }
@@ -558,7 +559,7 @@ body {
             margin-left: 32px;
         }
 
-        .nexmoe-list {
+        .chireiden-list {
             padding: 8px 10px;
         }
     }
@@ -582,14 +583,14 @@ body {
     }
 }
 
-.nexmoe-post-right {
+.chireiden-post-right {
     margin: 0px 0 - $gutter;
     text-align: right;
     width: calc(100vw - 350px);
     max-width: calc(100% + 50px);
 }
 
-.nexmoe-valign {
+.chireiden-valign {
     display: -webkit-box !important;
     display: -webkit-flex !important;
     display: -ms-flexbox !important;
@@ -601,7 +602,7 @@ body {
     height: 100%;
 }
 
-.nexmoe-post-right .nexmoe-fixed {
+.chireiden-post-right .chireiden-fixed {
     position: fixed;
     z-index: 1000;
     height: 100vh;
@@ -609,7 +610,7 @@ body {
     top: 0;
 }
 
-.nexmoe-post-right .nexmoe-tool {
+.chireiden-post-right .chireiden-tool {
     position: absolute;
     bottom: 20px;
     left: 20px;
@@ -628,30 +629,30 @@ body {
     }
 }
 
-.nexmoe-post-right .nexmoe-tool .mdui-fab {
+.chireiden-post-right .chireiden-tool .mdui-fab {
     background: #fff;
     color: #444;
 }
 
 @media screen and (max-width: 1024px) {
-    .nexmoe-post-right {
+    .chireiden-post-right {
         margin: $gutter 0px;
         text-align: left;
     }
 
-    .nexmoe-post-right .nexmoe-fixed {
+    .chireiden-post-right .chireiden-fixed {
         height: auto;
         top: auto;
         bottom: 0;
         right: 0;
     }
 
-    .nexmoe-post-right .nexmoe-tool {
+    .chireiden-post-right .chireiden-tool {
         right: 20px;
         left: auto;
     }
 
-    #nexmoe-header .nexmoe-social a {
+    #chireiden-header .chireiden-social a {
         margin: 5px;
         width: 44px;
         height: 44px;
@@ -659,7 +660,7 @@ body {
     }
 }
 
-.nexmoe-toc {
+.chireiden-toc {
     width: auto;
     text-align: left;
     box-shadow: 0 0 1rem rgba(161, 177, 204, 0.4);
@@ -676,35 +677,35 @@ body {
     overflow-y: scroll;
 }
 
-.nexmoe-tool .catalog:hover .nexmoe-toc {
+.chireiden-tool .catalog:hover .chireiden-toc {
     display: block;
 }
 
-.nexmoe-toc a {
+.chireiden-toc a {
     color: rgba(0, 0, 0, 0.6);
 }
 
-.nexmoe-toc a:hover {
+.chireiden-toc a:hover {
     text-decoration: underline;
     color: var(--color-primary);
 }
 
-.nexmoe-toc ol {
+.chireiden-toc ol {
     padding-left: 1em;
     margin: 0;
 }
 
-.nexmoe-toc li {
+.chireiden-toc li {
     margin: 0;
     line-height: 1.7rem;
 }
 
-.nexmoe-toc > ol {
+.chireiden-toc > ol {
     margin: 0;
     padding: 0;
 }
 
-.nexmoe-toc * {
+.chireiden-toc * {
     list-style: none;
 }
 
@@ -712,7 +713,7 @@ photos img {
     width: 25%;
 }
 
-.nexmoe-rainbow {
+.chireiden-rainbow {
     a:nth-child(7n+1) {
         background-color: var(--color-primary-bg);
         color: var(--color-primary);
@@ -749,7 +750,7 @@ photos img {
     }
 }
 
-.nexmoe-rainbow-fill {
+.chireiden-rainbow-fill {
     a:nth-child(7n+1) {
         color: #fff;
         background-color: var(--color-primary);

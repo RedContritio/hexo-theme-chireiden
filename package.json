@@ -1,13 +1,13 @@
 {
-	"name": "hexo-theme-nexmoe",
+	"name": "hexo-theme-chireiden",
 	"version": "3.2.13",
 	"description": "🔥 A special hexo theme.",
 	"keywords": [
 		"hexo",
 		"theme",
-		"nexmoe"
+		"chireiden"
 	],
-	"author": "Nexmoe (https://github.com/nexmoe)",
+	"author": "Chireiden (https://github.com/chireiden)",
 	"license": "Apache-2.0",
 	"main": "index.js",
 	"scripts": {
@@ -17,12 +17,12 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/theme-nexmoe/hexo-theme-nexmoe.git"
+		"url": "git://github.com/theme-chireiden/hexo-theme-chireiden.git"
 	},
 	"bugs": {
-		"url": "https://github.com/theme-nexmoe/hexo-theme-nexmoe/issues"
+		"url": "https://github.com/theme-chireiden/hexo-theme-chireiden/issues"
 	},
-	"homepage": "https://docs.nexmoe.com/",
+	"homepage": "https://docs.chireiden.com/",
 	"devDependencies": {
 		"cz-conventional-changelog": "3.3.0",
 		"eslint": "8.15.0"

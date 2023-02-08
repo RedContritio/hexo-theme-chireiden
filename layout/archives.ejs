@@ -1,6 +1,6 @@
-<section class="nexmoe-archives">
+<section class="chireiden-archives">
     
-    <div class="tagcloud nexmoe-rainbow">
+    <div class="tagcloud chireiden-rainbow">
         <%- list_tags({
             show_count: true,
             style: "unordered list",
@@ -9,7 +9,7 @@
         }) %>
     </div>
 
-    <div class="categories nexmoe-rainbow-fill">
+    <div class="categories chireiden-rainbow-fill">
         <% site.categories.sort('name').map(function(category){  %>
             <% let coverx = "" %>
             <% category.posts.sort('-date').map(function(post){  %>
