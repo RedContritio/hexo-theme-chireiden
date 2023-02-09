@@ -34,6 +34,21 @@
         'lib/mdui_043tiny/mdui.css'
     ]) %>
 
+
+    <!-- 这儿必须 highlight.js 不能 min，否则会换行出错 -->
+
+    <!-- 主题可以在 https://github.com/highlightjs/highlight.js/tree/main/src/styles 里选 -->
+
+    <% if (config.highlight.hljs) { %>
+        <link rel="stylesheet"
+            href="//cdn.bootcss.com/highlight.js/11.0.1/styles/github-dark.min.css">
+        <script src="//cdn.bootcss.com/highlight.js/11.0.1/highlight.js">
+        </script>
+        <script>
+            hljs.initHighlightingOnLoad();
+        </script>
+    <% } %>
+
     <%- css_auto_version('lib/iconfont/iconfont.css') %>
     <% if (theme.iconlib) { %>
         <link rel="stylesheet" href="<%= theme.iconlib %>">
